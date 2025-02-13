@@ -2,7 +2,7 @@
 
 // Preloader
 window.addEventListener("load", () => {
-  const preloader = document.querySelector("[data-preload]");
+  const preloader = document.querySelector("[data-preaload]");
   preloader.classList.add("loaded");
   document.body.classList.add("loaded");
 });
