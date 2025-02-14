@@ -1544,6 +1544,8 @@ textarea .input-field {
 }
 
 .copyright {
+  display: flex;
+  place-content: center;
   color: var(--quick-silver);
   line-height: var(--lineHeight-3);
 }
